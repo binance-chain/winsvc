@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/btcsuite/winsvc/winapi"
+	"github.com/binance-chain/winsvc/winapi"
 )
 
 // State describes service execution state (Stopped, Running and so on).

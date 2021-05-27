@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/winsvc/mgr"
-	"github.com/btcsuite/winsvc/svc"
+	"github.com/binance-chain/winsvc/mgr"
+	"github.com/binance-chain/winsvc/svc"
 )
 
 func getState(t *testing.T, s *mgr.Service) svc.State {
@@ -62,7 +62,7 @@ func TestExample(t *testing.T) {
 	defer os.RemoveAll(dir)
 
 	exepath := filepath.Join(dir, "a.exe")
-	o, err := exec.Command("go", "build", "-o", exepath, "github.com/btcsuite/winsvc/example").CombinedOutput()
+	o, err := exec.Command("go", "build", "-o", exepath, "github.com/binance-chain/winsvc/example").CombinedOutput()
 	if err != nil {
 		t.Fatalf("failed to build service program: %v\n%v", err, string(o))
 	}

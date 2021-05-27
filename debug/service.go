@@ -13,7 +13,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/btcsuite/winsvc/svc"
+	"github.com/binance-chain/winsvc/svc"
 )
 
 // Run executes service named name by calling appropriate handler function.

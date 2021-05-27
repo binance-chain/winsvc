@@ -9,7 +9,7 @@ package eventlog_test
 import (
 	"testing"
 
-	"github.com/btcsuite/winsvc/eventlog"
+	"github.com/binance-chain/winsvc/eventlog"
 )
 
 func TestLog(t *testing.T) {

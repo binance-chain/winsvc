@@ -9,8 +9,8 @@ package mgr
 import (
 	"syscall"
 
-	"github.com/btcsuite/winsvc/svc"
-	"github.com/btcsuite/winsvc/winapi"
+	"github.com/binance-chain/winsvc/svc"
+	"github.com/binance-chain/winsvc/winapi"
 )
 
 // TODO(brainman): use EnumDependentServices to enumerate dependent services

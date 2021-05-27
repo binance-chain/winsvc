@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/btcsuite/winsvc/debug"
-	"github.com/btcsuite/winsvc/eventlog"
-	"github.com/btcsuite/winsvc/svc"
+	"github.com/binance-chain/winsvc/debug"
+	"github.com/binance-chain/winsvc/eventlog"
+	"github.com/binance-chain/winsvc/svc"
 )
 
 var elog debug.Log

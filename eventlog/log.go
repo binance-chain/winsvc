@@ -12,7 +12,7 @@ import (
 	"errors"
 	"syscall"
 
-	"github.com/btcsuite/winsvc/winapi"
+	"github.com/binance-chain/winsvc/winapi"
 )
 
 // Log provides access to system log.

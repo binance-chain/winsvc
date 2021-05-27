@@ -18,7 +18,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/btcsuite/winsvc/svc"
+	"github.com/binance-chain/winsvc/svc"
 )
 
 func usage(errmsg string) {
